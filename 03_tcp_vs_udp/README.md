@@ -18,16 +18,16 @@ Socket 클래스와 UdpClient 클래스를 활용해 각각의 서버/클라이�
 - UdpClient: UDP에 특화된 하이레벨 API, 간단한 구현에 유용
 
 ## 코드 구성
-
-- `TCP_Server.cs` / `TCP_Client.cs`  
+[Program.cs](./Program.cs)
+- [TCP_Server.cs](./TCP_Server.cs)  / [TCP_Client.cs](./TCP_Client.cs)
   TCP 통신을 구현한 서버/클라이언트 코드  
   문자열을 주고받는 단순 채팅 구조  
   클라이언트에서 `"Delay"`를 입력하면 10만 개의 메시지를 빠르게 전송함
 
-- `UDP_Server.cs` / `UDP_Client.cs`  
+- [UDP_Server.cs](./UDP_Server.cs) / [UDP_Client.cs](./UDP_Client.cs)  
   UDP 통신을 구현한 기본 구조의 서버/클라이언트
 
-- `TCP_Server_StressTest.cs / UDP_Server_StressTest.cs`  
+- [TCP_Server_StressTest.cs](./TCP_Server_StressTest.cs) / [UDP_Server_StressTest.cs](./UDP_Server_StressTest.cs)
   패킷 손실을 확인하기 위한 테스트용 서버  
   다량의 메시지를 빠르게 수신받고 로그 출력
 
