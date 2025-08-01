@@ -19,7 +19,7 @@
 
 
 ## 코드
-[Program.cs](02_socket_chat/Program.cs)
+[Program.cs](./Program.cs)
 
 ### 서버 로그
 
